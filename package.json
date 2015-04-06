@@ -1,0 +1,27 @@
+{
+  "name": "goo-server",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:UseAllFive/goo-server.git"
+  },
+  "version": "0.0.1",
+  "dependencies": {
+    "underscore": "~1.5.2",
+    "connect": "~2.9.1",
+    "cloak": "0.2.0"
+  },
+  "devDependencies": {
+  	"chalk": "^0.4.0",
+  	"grunt": "^0.4.4",
+  	"grunt-contrib-concat": "^0.5.0",
+  	"grunt-contrib-jshint": "~0.10.0",
+  	"grunt-contrib-symlink": "^0.3.0",
+  	"grunt-contrib-uglify": "^0.7.0",
+  	"grunt-contrib-watch": "~0.6.1",
+  	"grunt-exec": "~0.4.2",
+  	"grunt-jscs-checker": "^0.6.1",
+  	"grunt-newer": "~0.7.0",
+    "ua5-frontend-standards": "^0.0.4",
+    "matchdep": "^0.3.0"
+  }
+}
