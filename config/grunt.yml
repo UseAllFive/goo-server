@@ -1,0 +1,10 @@
+config:
+    liveReloadPort: 35740
+    files:
+        js:
+            app:
+                src:
+                    - ./*.js
+                    - '!./Gruntfile.js'
+                dest: _build/app.js
+                destMin: _build/app.min.js
